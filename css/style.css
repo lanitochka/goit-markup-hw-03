@@ -415,7 +415,7 @@ address {
     text-decoration: none;
 }
 
-.contacts-footer li {
+.contacts-footer li:not(:last-child) {
     margin-bottom: 9px;
 }
 
